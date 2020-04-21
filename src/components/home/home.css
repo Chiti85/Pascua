@@ -1,0 +1,482 @@
+body {
+  overflow-x: hidden;
+}
+.tittle {
+  z-index: 200;
+  position: absolute;
+  top: 30px;
+  width: 700px;
+  margin-left: 375px;
+}
+.gigantR {
+  position: absolute;
+  left: 280px;
+  top: 325px;
+  width: 1000px;
+  height: 1400px;
+}
+
+#comic {
+  z-index: 500;
+  position: absolute;
+  width: 800px;
+  height: 1000px;
+  top: 250px;
+  left: -125px;
+}
+#circleRules {
+  z-index: 200;
+  position: absolute;
+  top: 1350px;
+  left: 440px;
+  width: 80px;
+  height: 105px;
+  background-color: #a1eeba;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+#circleRules:hover {
+  background-color: #fce58c;
+  animation: rumble 0.3s infinite linear;
+}
+#rulestext {
+  font-family: "Jua";
+  font-size: 1.8em;
+  margin-left: 7px;
+  color: #f1a5cb;
+}
+
+#circleMap {
+  z-index: 200;
+  position: absolute;
+  top: 1350px;
+  left: 640px;
+  width: 80px;
+  height: 105px;
+  background-color: #f1a5cb;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+#circleMap:hover {
+  background-color: #af98b6;
+  animation: rumble 0.3s infinite linear;
+}
+#maptext {
+  font-family: "Jua";
+  font-size: 1.8em;
+  margin-left: 15px;
+  color: #95e2de;
+}
+
+#circlschedule {
+  z-index: 200;
+  position: absolute;
+  top: 1350px;
+  left: 840px;
+  width: 80px;
+  height: 105px;
+  background-color: #fabe89;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+#circlschedule:hover {
+  background-color: #95e2de;
+  animation: rumble 0.3s infinite linear;
+}
+#scheduletext {
+  font-family: "Jua";
+  font-size: 1.5em;
+  margin-left: 13px;
+  margin-top: 25px;
+  color: #af98b6;
+}
+
+#circleMaterial {
+  z-index: 200;
+  position: absolute;
+  top: 1350px;
+  left: 1040px;
+  width: 80px;
+  height: 105px;
+  background-color: #af98b6;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+#circleMaterial:hover {
+  background-color: #95e2de;
+  animation: rumble 0.3s infinite linear;
+}
+#materialtext {
+  font-family: "Jua";
+  font-size: 1.4em;
+  margin-left: 2px;
+  margin-top: 43px;
+  color: #fce58c;
+}
+
+@keyframes rumble {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: translate(2px, 0px) rotate(-3deg);
+  }
+  50% {
+    transform: translate(0px, -2px) rotate(0deg);
+  }
+  75% {
+    transform: translate(-2px, 0px) rotate(3deg);
+  }
+  100% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+}
+
+@keyframes rumble2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: translate(2px, 0px) rotate(3deg);
+  }
+  50% {
+    transform: translate(0px, -2px) rotate(0deg);
+  }
+  75% {
+    transform: translate(-2px, 0px) rotate(-3deg);
+  }
+  100% {
+    transform: translate(0px, 2px) rotate(0deg);
+  }
+}
+
+#fuego1 {
+  z-index: 100;
+  position: relative;
+  left: 140px;
+  top: 120px;
+}
+.fuego1B {
+  width: 10%;
+  height: 10%;
+}
+.fuego1R {
+  width: 9%;
+  height: 9%;
+  z-index: 50;
+  position: relative;
+  top: -8px;
+  right: 135px;
+  animation: rumble 1s infinite linear;
+}
+.fuego1O {
+  width: 8%;
+  height: 8%;
+  z-index: 70;
+  position: relative;
+  top: -9px;
+  right: 260px;
+  animation: rumble2 2s infinite linear;
+}
+.fuego1F {
+  width: 7%;
+  height: 7%;
+  z-index: 70;
+  position: relative;
+  top: -9px;
+  right: 365px;
+  animation: rumble 1s infinite linear;
+}
+#fuego2 {
+  z-index: 100;
+  position: relative;
+  left: 100px;
+  top: 180px;
+}
+.fuego2B {
+  width: 5%;
+  height: 5%;
+}
+.fuego2R {
+  width: 4.3%;
+  height: 4.3%;
+  z-index: 50;
+  position: relative;
+  top: -4px;
+  right: 67px;
+  animation: rumble2 1s infinite linear;
+}
+.fuego2O {
+  width: 3.8%;
+  height: 3.8%;
+  z-index: 70;
+  position: relative;
+  top: -5px;
+  right: 125px;
+  animation: rumble 2s infinite linear;
+}
+.fuego2F {
+  width: 3.3%;
+  height: 3.3%;
+  z-index: 70;
+  position: relative;
+  top: -5px;
+  right: 174px;
+  animation: rumble2 1s infinite linear;
+}
+#fuego3 {
+  z-index: 100;
+  position: relative;
+  left: 1170px;
+  top: -275px;
+}
+.fuego3B {
+  width: 15%;
+  height: 15%;
+}
+.fuego3R {
+  width: 13.5%;
+  height: 13.5%;
+  z-index: 50;
+  position: relative;
+  top: -10px;
+  right: 205px;
+  animation: rumble2 1s infinite linear;
+}
+.fuego3O {
+  width: 12.5%;
+  height: 12.5%;
+  z-index: 70;
+  position: relative;
+  top: -10px;
+  right: 390px;
+  animation: rumble 2s infinite linear;
+}
+.fuego3F {
+  width: 11.5%;
+  height: 11.5%;
+  z-index: 70;
+  position: relative;
+  top: -10px;
+  right: 560px;
+  animation: rumble2 1s infinite linear;
+}
+#fuego4 {
+  z-index: 100;
+  position: relative;
+  left: 1190px;
+  top: 210px;
+}
+.fuego4B {
+  width: 8%;
+  height: 8%;
+}
+.fuego4R {
+  width: 7.3%;
+  height: 7.3%;
+  z-index: 50;
+  position: relative;
+  top: -5px;
+  right: 110px;
+  animation: rumble2 1s infinite linear;
+}
+.fuego4O {
+  width: 6.7%;
+  height: 6.7%;
+  z-index: 70;
+  position: relative;
+  top: -5px;
+  right: 209px;
+  animation: rumble 2s infinite linear;
+}
+.fuego4F {
+  width: 6%;
+  height: 6%;
+  z-index: 70;
+  position: relative;
+  top: -5px;
+  right: 299px;
+  animation: rumble2 1s infinite linear;
+}
+#fuego5 {
+  z-index: 100;
+  position: relative;
+  right: -140px;
+  top: 450px;
+}
+.fuego5B {
+  width: 18%;
+  height: 18%;
+}
+.fuego5R {
+  width: 16.5%;
+  height: 16.5%;
+  z-index: 50;
+  position: relative;
+  top: -3px;
+  right: 245px;
+  animation: rumble 1s infinite linear;
+}
+.fuego5O {
+  width: 15%;
+  height: 15%;
+  z-index: 70;
+  position: relative;
+  top: -5px;
+  right: 470px;
+  animation: rumble2 2s infinite linear;
+}
+.fuego5F {
+  width: 13.4%;
+  height: 13.4%;
+  z-index: 70;
+  position: relative;
+  top: -8px;
+  right: 670px;
+  animation: rumble 1s infinite linear;
+}
+
+#fuego6 {
+  z-index: 100;
+  position: relative;
+  left: 1270px;
+  top: 580px;
+}
+.fuego6B {
+  width: 5%;
+  height: 5%;
+}
+.fuego6R {
+  width: 4.3%;
+  height: 4.3%;
+  z-index: 50;
+  position: relative;
+  top: -4px;
+  right: 67px;
+  animation: rumble2 1s infinite linear;
+}
+.fuego6O {
+  width: 3.8%;
+  height: 3.8%;
+  z-index: 70;
+  position: relative;
+  top: -5px;
+  right: 125px;
+  animation: rumble 2s infinite linear;
+}
+.fuego6F {
+  width: 3.3%;
+  height: 3.3%;
+  z-index: 70;
+  position: relative;
+  top: -5px;
+  right: 174px;
+  animation: rumble2 1s infinite linear;
+}
+#fuego7 {
+  z-index: 100;
+  position: relative;
+  left: 1330px;
+  top: -650px;
+}
+.fuego7B {
+  width: 10%;
+  height: 10%;
+}
+.fuego7R {
+  width: 9%;
+  height: 9%;
+  z-index: 50;
+  position: relative;
+  top: -8px;
+  right: 135px;
+  animation: rumble2 1s infinite linear;
+}
+.fuego7O {
+  width: 8%;
+  height: 8%;
+  z-index: 70;
+  position: relative;
+  top: -9px;
+  right: 260px;
+  animation: rumble 2s infinite linear;
+}
+.fuego7F {
+  width: 7%;
+  height: 7%;
+  z-index: 70;
+  position: relative;
+  top: -9px;
+  right: 365px;
+  animation: rumble2 1s infinite linear;
+}
+#fuego8 {
+  z-index: 100;
+  position: relative;
+  left: 1230px;
+  top: -180px;
+}
+.fuego8B {
+  width: 10%;
+  height: 10%;
+}
+.fuego8R {
+  width: 9%;
+  height: 9%;
+  z-index: 50;
+  position: relative;
+  top: -8px;
+  right: 135px;
+  animation: rumble2 1s infinite linear;
+}
+.fuego8O {
+  width: 8%;
+  height: 8%;
+  z-index: 70;
+  position: relative;
+  top: -9px;
+  right: 260px;
+  animation: rumble 2s infinite linear;
+}
+.fuego8F {
+  width: 7%;
+  height: 7%;
+  z-index: 70;
+  position: relative;
+  top: -9px;
+  right: 365px;
+  animation: rumble2 1s infinite linear;
+}
+#fuego9 {
+  z-index: 100;
+  position: relative;
+  left: 80px;
+  top: 180px;
+}
+.fuego9B {
+  width: 10%;
+  height: 10%;
+}
+.fuego9R {
+  width: 9%;
+  height: 9%;
+  z-index: 50;
+  position: relative;
+  top: -8px;
+  right: 135px;
+  animation: rumble2 1s infinite linear;
+}
+.fuego9O {
+  width: 8%;
+  height: 8%;
+  z-index: 70;
+  position: relative;
+  top: -9px;
+  right: 260px;
+  animation: rumble 2s infinite linear;
+}
+.fuego9F {
+  width: 7%;
+  height: 7%;
+  z-index: 70;
+  position: relative;
+  top: -9px;
+  right: 365px;
+  animation: rumble2 1s infinite linear;
+}
