@@ -1,0 +1,318 @@
+.Intro {
+  font-family: "Jua";
+  font-size: 1.7em;
+  margin: 100px 350px 50px 350px;
+  color: #959c97;
+}
+#relocated1 {
+  z-index: 900;
+  position: relative;
+  left: -100px;
+}
+#estrexa {
+  z-index: 200;
+  position: relative;
+  color: #ef5476;
+  font-family: "Jua";
+  font-size: 2.5em;
+  left: 327px;
+  top: -535px;
+}
+#GigantR {
+  z-index: 1000;
+  position: absolute;
+  top: 170px;
+  left: 1100px;
+  width: 520px;
+  height: 600px;
+}
+#handMove {
+  z-index: 1200;
+  position: relative;
+
+  left: 1074px;
+  width: 45px;
+  height: 45px;
+  top: 423px;
+  animation: moveHand 0.9s infinite linear;
+}
+.rulesTipo {
+  font-family: "Jua";
+  font-size: 1.3em;
+  margin: 10px 300px 10px 375px;
+  color: #353535;
+}
+
+#tittleR {
+  width: 20%;
+  height: 20%;
+  position: relative;
+  left: 550px;
+  top: 55px;
+}
+.backgrounC {
+  width: 300px;
+  height: 4px;
+  z-index: 100;
+  position: relative;
+  left: 300px;
+  top: -10px;
+}
+#backgrounC1 {
+  background-color: #af98b6;
+}
+#backgrounC2 {
+  background-color: #95e2de;
+}
+#backgrounC3 {
+  background-color: #fce58c;
+}
+#backgrounC4 {
+  background-color: #a1eeba;
+}
+#backgrounC5 {
+  background-color: #f1a5cb;
+}
+#backgrounC6 {
+  background-color: #fabe89;
+}
+.egg {
+  z-index: 200;
+  position: absolute;
+  top: 750px;
+  width: 60px;
+  height: 85px;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+}
+#circleHome {
+  left: 440px;
+  background-color: #a1eeba;
+}
+#circleHome:hover {
+  background-color: #fce58c;
+  animation: rumble 0.3s infinite linear;
+}
+#hometext {
+  font-family: "Jua";
+  font-size: 1.2em;
+  margin-left: 7px;
+  margin-top: 30px;
+  color: #f1a5cb;
+}
+
+#circleMap2 {
+  left: 640px;
+  background-color: #f1a5cb;
+}
+#circleMap2:hover {
+  background-color: #af98b6;
+  animation: rumble 0.3s infinite linear;
+}
+#maptext2 {
+  font-family: "Jua";
+  font-size: 1.2em;
+  margin-left: 15px;
+  margin-top: 30px;
+  color: #95e2de;
+}
+
+#circlschedule2 {
+  left: 840px;
+  background-color: #fabe89;
+}
+#circlschedule2:hover {
+  background-color: #95e2de;
+  animation: rumble 0.3s infinite linear;
+}
+#scheduletext2 {
+  font-family: "Jua";
+  font-size: 1.2em;
+  margin-left: 10px;
+  margin-top: 20px;
+  color: #af98b6;
+}
+
+#circleMaterial2 {
+  left: 1040px;
+  background-color: #af98b6;
+}
+#circleMaterial2:hover {
+  background-color: #95e2de;
+  animation: rumble 0.3s infinite linear;
+}
+#materialtext2 {
+  font-family: "Jua";
+  font-size: 1em;
+  margin-left: 3px;
+  margin-top: 38px;
+  color: #fce58c;
+}
+.N {
+  font-family: "Jua";
+  z-index: 100;
+  position: absolute;
+  left: 333px;
+  font-size: 2.3em;
+}
+#N1 {
+  top: 335px;
+  animation: colorPalete 10s infinite linear;
+}
+#N2 {
+  top: 387px;
+  animation: colorPalete2 10s infinite linear;
+}
+#N3 {
+  top: 437px;
+  animation: colorPalete3 10s infinite linear;
+}
+#N4 {
+  top: 487px;
+  animation: colorPalete4 10s infinite linear;
+}
+#N5 {
+  top: 537px;
+  animation: colorPalete5 10s infinite linear;
+}
+#N6 {
+  top: 587px;
+  animation: colorPalete6 10s infinite linear;
+}
+@keyframes colorPalete {
+  0% {
+    color: #af98b6;
+  }
+  20% {
+    color: #95e2de;
+  }
+  40% {
+    color: #fce58c;
+  }
+  60% {
+    color: #a1eeba;
+  }
+  80% {
+    color: #f1a5cb;
+  }
+  100% {
+    color: #fabe89;
+  }
+}
+@keyframes colorPalete2 {
+  0% {
+    color: #95e2de;
+  }
+  20% {
+    color: #fce58c;
+  }
+  40% {
+    color: #a1eeba;
+  }
+  60% {
+    color: #f1a5cb;
+  }
+  80% {
+    color: #fabe89;
+  }
+  100% {
+    color: #af98b6;
+  }
+}
+@keyframes colorPalete3 {
+  0% {
+    color: #fce58c;
+  }
+  20% {
+    color: #a1eeba;
+  }
+  40% {
+    color: #f1a5cb;
+  }
+  60% {
+    color: #fabe89;
+  }
+  80% {
+    color: #af98b6;
+  }
+  100% {
+    color: #95e2de;
+  }
+}
+
+@keyframes colorPalete4 {
+  0% {
+    color: #a1eeba;
+  }
+  20% {
+    color: #f1a5cb;
+  }
+  40% {
+    color: #fabe89;
+  }
+  60% {
+    color: #af98b6;
+  }
+  80% {
+    color: #95e2de;
+  }
+  100% {
+    color: #fce58c;
+  }
+}
+@keyframes colorPalete5 {
+  0% {
+    color: #f1a5cb;
+  }
+  20% {
+    color: #fabe89;
+  }
+  40% {
+    color: #af98b6;
+  }
+  60% {
+    color: #95e2de;
+  }
+  80% {
+    color: #fce58c;
+  }
+  100% {
+    color: #a1eeba;
+  }
+}
+@keyframes colorPalete6 {
+  0% {
+    color: #fabe89;
+  }
+  20% {
+    color: #af98b6;
+  }
+  40% {
+    color: #95e2de;
+  }
+  60% {
+    color: #fce58c;
+  }
+  80% {
+    color: #a1eeba;
+  }
+  100% {
+    color: #f1a5cb;
+  }
+}
+@keyframes moveHand {
+  0% {
+    transform: rotate(-5deg);
+  }
+  25% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(5deg);
+  }
+  75% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-5deg);
+  }
+}

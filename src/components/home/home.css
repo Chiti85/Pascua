@@ -1,5 +1,6 @@
 body {
   overflow-x: hidden;
+  width: 100vw;
 }
 .tittle {
   z-index: 200;
@@ -480,3 +481,15 @@ body {
   right: 365px;
   animation: rumble2 1s infinite linear;
 }
+/* #quoteS {
+  width: 800px;
+  height: 300px;
+}
+#quote {
+  z-index: 500;
+  position: relative;
+  font-family: "Jua";
+  font-size: 0.7em;
+  left: 520px;
+  top: 130px;
+} */

@@ -107,6 +107,14 @@ class home extends Component {
             <h4 id="materialtext">Weapon</h4>
           </div>
         </Link>
+        {/* <div id="quoteS">
+          <p id="quote">
+            "Science investigates; religion interprets. Science gives man
+            knowledge which is power; religion gives man wisdom which is
+            control."
+          </p>
+          <p id="quoteL">Martin Luther King, Jr.</p>
+        </div> */}
       </>
     );
   }
