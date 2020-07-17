@@ -5,104 +5,225 @@
   margin-left: 650px;
 }
 #map {
-  z-index: 100;
+  z-index: 100000;
+  pointer-events: none;
   position: absolute;
   top: 300px;
   margin-bottom: 50px;
   right: 160px;
   width: 900px;
 }
+
+.opacidadPuta {
+  opacity: 0;
+  position: absolute;
+  z-index: 1300;
+  display: block;
+  width: 50px;
+  height: 30px;
+  margin-left: 890px;
+  margin-top: 190px;
+}
+.opacidadPuta:hover {
+  opacity: 1;
+}
 #greenCorner {
   position: absolute;
-  top: 405px;
+  top: -5px;
   width: 40px;
-  right: 515px;
+  right: 17px;
+  z-index: 500;
+}
+#arrowF {
+  top: -80px;
+  right: -97px;
+  z-index: 500;
+}
+#P3 {
+  position: absolute;
+  right: -230px;
+  left: 80px;
+  top: -190px;
+}
+
+.opacidadPutaBlue {
+  opacity: 0;
+  position: absolute;
+  z-index: 1300;
+  display: block;
+  width: 43px;
+  height: 140px;
+  margin-left: 820px;
+  margin-top: 230px;
+}
+.opacidadPutaBlue:hover {
+  opacity: 1;
 }
 #bluePlates {
   position: absolute;
-  top: 455px;
+  top: 4px;
   width: 43px;
-  right: 578px;
+
   height: 140px;
+}
+#P2 {
+  position: absolute;
+  right: -235px;
+  top: 58px;
+  left: 74px;
+}
+#arrowE {
+  top: 10px;
+  right: -60px;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  transform: rotate(90deg);
+}
+.opacidadPutaOrange {
+  opacity: 0;
+  position: absolute;
+  z-index: 1300;
+  display: block;
+  width: 265px;
+  height: 293px;
+  margin-left: 430px;
+  margin-top: 243px;
+}
+.opacidadPutaOrange:hover {
+  opacity: 1;
 }
 #orangeKitchen1 {
   position: absolute;
-  top: 464px;
-  left: 434px;
-  width: 18%;
-  height: 12%;
+
+  width: 265px;
+  height: 83px;
 }
 #orangeKitchen2 {
   position: absolute;
-  top: 535px;
-  left: 434px;
-  width: 4.5%;
-  height: 32%;
+  width: 70px;
+  height: 295px;
+}
+#P4 {
+  position: relative;
+  right: 270px;
+  top: -128px;
+}
+#arrowD {
+  top: -110px;
+  left: 15px;
+  transform: rotate(-90deg);
+  opacity: 1;
+}
+.opacidadPutaPink {
+  opacity: 0;
+  position: absolute;
+  z-index: 1300;
+  display: block;
+  width: 54px;
+  height: 290px;
+  margin-left: 380px;
+  margin-top: 245px;
+}
+.opacidadPutaPink:hover {
+  opacity: 1;
 }
 #pinkcloset {
   position: absolute;
-  top: 464px;
-  left: 380px;
-  width: 3.8%;
+  width: 54px;
+  height: 290px;
+}
+#P5 {
+  position: relative;
+  right: 200px;
+  top: 180px;
+  width: 190px;
+  height: 220px;
+}
+#arrowC {
+  top: 90px;
+  left: -105px;
+  transform: rotate(180deg);
+}
+.opacidadPutaViolet {
+  opacity: 0;
+  position: absolute;
+  z-index: 1300;
+  display: block;
+  width: 365px;
+  height: 70px;
+  margin-left: 865px;
+  margin-top: 410px;
+}
+.opacidadPutaViolet:hover {
+  opacity: 1;
 }
 #violetC {
   position: absolute;
-  top: 632px;
-  width: 25.5%;
-  height: 9.5%;
-  right: 210px;
+  top: 3px;
+  width: 365px;
+  height: 68px;
+  right: 1px;
+}
+#arrowA {
+  top: -103px;
+  right: -58px;
+}
+#P6 {
+  position: relative;
+  left: 435px;
+  top: -110px;
+  width: 120px;
+}
+.opacidadPutaYellow {
+  opacity: 0;
+
+  position: absolute;
+  z-index: 1300;
+  display: block;
+  width: 65px;
+  height: 115px;
+  margin-left: 1140px;
+  margin-top: 620px;
+}
+.opacidadPutaYellow:hover {
+  opacity: 1;
 }
 #yellowSf {
   position: absolute;
-  top: 840px;
-  width: 4.5%;
-  right: 235px;
+  width: 65px;
+  height: 115px;
+}
+#P1 {
+  position: relative;
+  left: 120px;
+  top: 100px;
+  width: 170px;
+}
+#arrowB {
+  top: 9px;
+  right: -135px;
+  transform: rotate(90deg);
 }
 .arrow {
   position: absolute;
   width: 100px;
   height: 100px;
 }
-#arrowA {
-  top: 526px;
-  right: 150px;
-}
-#arrowB {
-  top: 890px;
-  right: 100px;
-  transform: rotate(90deg);
-}
-#arrowC {
-  top: 690px;
-  left: 275px;
-  transform: rotate(180deg);
-}
-#arrowD {
-  top: 355px;
-  left: 455px;
-  transform: rotate(-90deg);
-}
-#arrowF {
-  top: 340px;
-  right: 395px;
-}
-#arrowE {
-  top: 470px;
-  right: 515px;
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  transform: rotate(90deg);
-}
 .parrafis {
   font-family: "Jua";
   font-size: 0.9em;
   color: #353535;
-  /*margin: 20px 700px 20px 575px;*/
+  z-index: 500;
 }
-#P1 {
-  position: relative;
-  left: 730px;
-  top: 290px;
-  margin: 20px 750px 20px 575px;
+#butonAll {
+  background-color: orange;
+  width: 100px;
+  height: 50px;
+  border-radius: 10px;
+  position: absolute;
+  z-index: 800;
+  top: 1050px;
+  margin-bottom: 100px;
+  left: 750px;
 }
