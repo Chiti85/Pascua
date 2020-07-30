@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Link, String } from "react-router-dom";
-import "./map.css";
+import "./map2.css";
 
 import map from "./map-map.png";
 import Tittlemap from "./map-tittle.png";
@@ -14,78 +14,77 @@ import pink from "./pinkClosetKitchen.png";
 import purpel from "./violetStand.png";
 import yellow from "./yellowSofa.png";
 
-const Map = () => {
+const Map2 = () => {
   return (
     <>
-      <img id="tittleMap" src={Tittlemap}></img>
-      <p id="subtitiel">"Visit the kitchen and discover the hot points"</p>
+      <img id="tittleMapX" src={Tittlemap}></img>
+      <p id="subtitielX">"Visit the kitchen and discover the hot points"</p>
       <div>
-        <img id="map" src={map}></img>
+        <img id="mapX" src={map}></img>
 
-        <div className="opacidadPuta">
-          <img id="greenCorner" src={green}></img>
-          <img id="arrowF" className="arrow" src={arrow2}></img>
-          <p id="P3" className="parrafis">
+        <div className="opacidadPutaX">
+          <img id="greenCornerX" src={green}></img>
+          <img id="arrowFX" className="arrow" src={arrow2}></img>
+          <p id="P3X" className="parrafisX">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
             facilisis nibh. Nullam eu nisl et ex dignissim scelerisque.
           </p>
         </div>
 
-        <div className="opacidadPutaBlue">
-          <img id="bluePlates" src={blue}></img>
-          <img id="arrowE" src={arrow}></img>
-          <p className="parrafis" id="P2">
+        <div className="opacidadPutaBlueX">
+          <img id="bluePlatesX" src={blue}></img>
+          <img id="arrowEX" src={arrow}></img>
+          <p className="parrafisX" id="P2X">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
             facilisis nibh. Nullam eu nisl et ex dignissim scelerisque.
           </p>
         </div>
 
-        <div className="opacidadPutaViolet">
-          <img id="violetC" src={purpel}></img>
-          <p className="parrafis" id="P6">
+        <div className="opacidadPutaVioletX">
+          <img id="violetCX" src={purpel}></img>
+          <p className="parrafisX" id="P6X">
             Wisi forensibus mnesarchum in cum. Per id impetus abhorreant, his no
             magna definiebas, inani rationibus in quo. Ut vidisse dolores est,
             ut quis nominavi mel.
           </p>
-          <img id="arrowA" className="arrow" src={arrow}></img>
+          <img id="arrowAX" className="arrowX" src={arrow}></img>
         </div>
 
-        <div className="opacidadPutaYellow">
-          <img id="yellowSf" src={yellow}></img>
-          <p className="parrafis" id="P1">
+        <div className="opacidadPutaYellowX">
+          <img id="yellowSfX" src={yellow}></img>
+          <p className="parrafisX" id="P1X">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
             facilisis nibh. Nullam eu nisl et ex dignissim scelerisque.
           </p>
-          <img id="arrowB" className="arrow" src={arrow}></img>
+          <img id="arrowBX" className="arrowX" src={arrow}></img>
         </div>
 
-        <div className="opacidadPutaPink">
-          <img id="pinkcloset" src={pink}></img>
-          <p className="parrafis" id="P5">
+        <div className="opacidadPutaPinkX">
+          <img id="pinkclosetX" src={pink}></img>
+          <p className="parrafisX" id="P5X">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
             facilisis nibh. Nullam eu nisl et ex dignissim scelerisque.
           </p>
-          <img id="arrowC" className="arrow" src={arrow2}></img>
+          <img id="arrowCX" className="arrowX" src={arrow2}></img>
         </div>
-        <div className="opacidadPutaOrange">
-          <img id="orangeKitchen1" src={orange1}></img>
-          <img id="orangeKitchen2" src={orange2}></img>
-          <img id="arrowD" className="arrow" src={arrow2}></img>
+        <div className="opacidadPutaOrangeX">
+          <img id="orangeKitchen1X" src={orange1}></img>
+          <img id="orangeKitchen2X" src={orange2}></img>
+          <img id="arrowDX" className="arrowX" src={arrow2}></img>
 
-          <p className="parrafis" id="P4">
+          <p className="parrafisX" id="P4X">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sit amet
             facilisis nibh. Nullam eu nisl et ex dignissim scelerisque.
           </p>
         </div>
       </div>
-      <div>
-        <Link to="/map2">
-          <div id="pixiB">
-            <h4 id="maptext24">Show All</h4>
-          </div>
-        </Link>
-      </div>
-      <div id="circabutons">
+      <Link to="/map">
+        <div id="pixiB">
+          <h4 id="maptext77">Hide</h4>
+        </div>
+      </Link>
+
+      <div id="circabutonsX">
         <Link to="/rules">
           <div id="circleRules">
             <h4 id="rulestext">Rules</h4>
@@ -113,4 +112,4 @@ const Map = () => {
   );
 };
 
-export default Map;
+export default Map2;

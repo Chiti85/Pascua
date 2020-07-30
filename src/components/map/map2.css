@@ -1,10 +1,10 @@
-#tittleMap {
+#tittleMapX {
   width: 20%;
   height: 20%;
   margin-top: 50px;
   margin-left: 650px;
 }
-#map {
+#mapX {
   z-index: 100000;
   pointer-events: none;
   position: absolute;
@@ -14,65 +14,59 @@
   width: 900px;
 }
 
-.opacidadPuta {
-  opacity: 0;
+.opacidadPutaX {
   position: absolute;
   z-index: 1300;
   display: block;
   width: 50px;
   height: 30px;
   margin-left: 890px;
-  margin-top: 190px;
+  margin-top: 177px;
 }
-.opacidadPuta:hover {
-  opacity: 1;
-}
-#greenCorner {
+
+#greenCornerX {
   position: absolute;
   top: -5px;
   width: 40px;
   right: 17px;
   z-index: 500;
 }
-#arrowF {
+#arrowFX {
   top: -80px;
   right: -97px;
   z-index: 500;
 }
-#P3 {
+#P3X {
   position: absolute;
   right: -230px;
   left: 80px;
   top: -190px;
 }
 
-.opacidadPutaBlue {
-  opacity: 0;
+.opacidadPutaBlueX {
   position: absolute;
   z-index: 1300;
   display: block;
   width: 43px;
   height: 140px;
   margin-left: 820px;
-  margin-top: 230px;
+  margin-top: 215px;
 }
-.opacidadPutaBlue:hover {
-  opacity: 1;
-}
-#bluePlates {
+
+#bluePlatesX {
   position: absolute;
   top: 4px;
   width: 43px;
 
   height: 140px;
 }
-#P2 {
+#P2X {
   position: absolute;
   right: -235px;
   top: 58px;
   left: 74px;
 }
-#arrowE {
+#arrowEX {
   top: 10px;
   right: -60px;
   position: absolute;
@@ -81,7 +75,6 @@
   transform: rotate(90deg);
 }
 .opacidadPutaOrange {
-  opacity: 0;
   position: absolute;
   z-index: 1300;
   display: block;
@@ -90,33 +83,33 @@
   margin-left: 430px;
   margin-top: 243px;
 }
-.opacidadPutaOrange:hover {
-  opacity: 1;
-}
-#orangeKitchen1 {
-  position: absolute;
 
+#orangeKitchen1X {
+  position: absolute;
+  left: 430px;
   width: 265px;
-  height: 83px;
+  height: 88px;
+  top: 460px;
 }
-#orangeKitchen2 {
+#orangeKitchen2X {
   position: absolute;
   width: 70px;
   height: 295px;
+  left: 430px;
+  top: 460px;
 }
-#P4 {
+#P4X {
   position: relative;
-  right: 270px;
-  top: -128px;
+  left: 170px;
+  width: 230px;
 }
-#arrowD {
-  top: -110px;
-  left: 15px;
+#arrowDX {
+  top: 355px;
+  left: 450px;
   transform: rotate(-90deg);
   opacity: 1;
 }
-.opacidadPutaPink {
-  opacity: 0;
+.opacidadPutaPinkX {
   position: absolute;
   z-index: 1300;
   display: block;
@@ -125,59 +118,53 @@
   margin-left: 380px;
   margin-top: 245px;
 }
-.opacidadPutaPink:hover {
-  opacity: 1;
-}
-#pinkcloset {
+
+#pinkclosetX {
   position: absolute;
   width: 54px;
   height: 290px;
+  top: -125px;
 }
-#P5 {
+#P5X {
   position: relative;
   right: 200px;
   top: 180px;
   width: 190px;
   height: 220px;
 }
-#arrowC {
+#arrowCX {
   top: 90px;
   left: -105px;
   transform: rotate(180deg);
 }
-.opacidadPutaViolet {
-  opacity: 0;
+.opacidadPutaVioletX {
   position: absolute;
   z-index: 1300;
   display: block;
   width: 365px;
   height: 70px;
   margin-left: 865px;
-  margin-top: 410px;
+  margin-top: 400px;
 }
-.opacidadPutaViolet:hover {
-  opacity: 1;
-}
-#violetC {
+
+#violetCX {
   position: absolute;
   top: 3px;
   width: 365px;
-  height: 68px;
+  height: 63px;
   right: 1px;
 }
-#arrowA {
+#arrowAX {
   top: -103px;
   right: -58px;
 }
-#P6 {
+#P6X {
   position: relative;
   left: 435px;
   top: -110px;
   width: 120px;
 }
 .opacidadPutaYellow {
-  opacity: 0;
-
   position: absolute;
   z-index: 1300;
   display: block;
@@ -186,48 +173,37 @@
   margin-left: 1140px;
   margin-top: 620px;
 }
-.opacidadPutaYellow:hover {
-  opacity: 1;
-}
-#yellowSf {
+
+#yellowSfX {
   position: absolute;
   width: 65px;
   height: 115px;
+  top: 840px;
+  left: 1140px;
 }
-#P1 {
+#P1X {
   position: relative;
-  left: 120px;
-  top: 100px;
+  left: 1250px;
+  top: 7880px;
   width: 170px;
 }
-#arrowB {
-  top: 9px;
-  right: -135px;
+#arrowBX {
+  top: 900px;
+  right: 100px;
   transform: rotate(90deg);
 }
-.arrow {
+.arrowX {
   position: absolute;
   width: 100px;
   height: 100px;
 }
-.parrafis {
+.parrafisX {
   font-family: "Jua";
   font-size: 0.9em;
   color: #353535;
   z-index: 500;
 }
-#butonAll {
-  background-color: orange;
-  width: 100px;
-  height: 50px;
-  border-radius: 10px;
-  position: absolute;
-  z-index: 800;
-  top: 1050px;
-  margin-bottom: 100px;
-  left: 750px;
-}
-#subtitiel {
+#subtitielX {
   font-family: "Jua";
   color: #9e9d95;
   font-size: 1em;
@@ -236,31 +212,15 @@
   margin-left: 625px;
   margin-top: 20px;
 }
-#maptext1 {
+#maptext77 {
   font-family: "Jua";
   font-size: 1.8em;
-  margin-left: 7px;
-  color: #95e2de;
+  margin-left: 25px;
+  margin-top: 17px;
+  color: #9e9d95;
 }
-#circabutons {
+#circabutonsX {
   position: absolute;
   z-index: 10000;
   top: -190px;
-}
-#pixiB {
-  position: absolute;
-  z-index: 1000000;
-  background-color: #cfffd0;
-  border-radius: 20%;
-  top: 1020px;
-  left: 760px;
-  width: 100px;
-  height: 70px;
-}
-#maptext24 {
-  font-family: "Jua";
-  font-size: 1.4em;
-  margin-left: 7px;
-  color: #9e9d95;
-  margin-top: 22px;
 }

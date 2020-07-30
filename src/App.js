@@ -8,6 +8,7 @@ import Map from "./components/map/map";
 import Schedule from "./components/schedule/schedule";
 import Material from "./components/materials/material";
 import { render } from "@testing-library/react";
+import Map2 from "./components/map/map2";
 
 class App extends Component {
   constructor() {
@@ -22,6 +23,7 @@ class App extends Component {
           <Route path="/map" exact component={Map} />
           <Route path="/schedule" exact component={Schedule} />
           <Route path="/material" exact component={Material} />
+          <Route path="/map2" exact component={Map2} />
         </Switch>
       </>
     );
